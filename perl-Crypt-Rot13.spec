@@ -31,7 +31,7 @@ ale 0 i 26 nie zmieniaj± zawarto¶ci tablicy.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{__make} test
 
