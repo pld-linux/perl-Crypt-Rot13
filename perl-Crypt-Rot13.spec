@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	Rot13
+%define		pdir	Crypt
+%define		pnam	Rot13
 Summary:	Crypt::Rot13 Perl module - a rotational deviator
 Summary(pl):	Modu³ Perla Crypt::Rot13 - obrotowy dewiator
 Name:		perl-Crypt-Rot13
