@@ -10,7 +10,7 @@ Summary(pl):	Modu³ Perla Crypt::Rot13 - obrotowy dewiator
 Name:		perl-Crypt-Rot13
 Version:	0.6
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/AYRNIEU/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0898cc852619875a743678083152155a
