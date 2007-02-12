@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Rot13
 Summary:	Crypt::Rot13 Perl module - a rotational deviator
-Summary(pl):	Modu³ Perla Crypt::Rot13 - obrotowy dewiator
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::Rot13 - obrotowy dewiator
 Name:		perl-Crypt-Rot13
 Version:	0.6
 Release:	1
@@ -24,11 +24,11 @@ Rot13 provides an object into which arrays may be placed, and then
 returned to you in altered - specifically: rotated - form. Valid
 rot13() arguments are 0-26, though 0 and 26 do not alter the array.
 
-%description -l pl
-Rot13 udostêpnia obiekt, w którym mo¿na umieszczaæ tablice, które
-nastêpnie s± zwracane w zmodyfikowanej, a konkretnie "obróconej"
-formie. Prawid³owy argument dla rot13() to liczba z przedzia³u 0-26,
-ale 0 i 26 nie zmieniaj± zawarto¶ci tablicy.
+%description -l pl.UTF-8
+Rot13 udostÄ™pnia obiekt, w ktÃ³rym moÅ¼na umieszczaÄ‡ tablice, ktÃ³re
+nastÄ™pnie sÄ… zwracane w zmodyfikowanej, a konkretnie "obrÃ³conej"
+formie. PrawidÅ‚owy argument dla rot13() to liczba z przedziaÅ‚u 0-26,
+ale 0 i 26 nie zmieniajÄ… zawartoÅ›ci tablicy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
