@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Crypt
 %define		pnam	Rot13
+%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::Rot13 Perl module - a rotational deviator
 Summary(pl.UTF-8):	Moduł Perla Crypt::Rot13 - obrotowy dewiator
 Name:		perl-Crypt-Rot13
@@ -14,6 +14,7 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/AYRNIEU/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0898cc852619875a743678083152155a
+URL:		http://search.cpan.org/dist/Crypt-Rot13/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
