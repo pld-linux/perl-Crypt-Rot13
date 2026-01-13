@@ -8,7 +8,7 @@ Summary:	Crypt::Rot13 Perl module - a rotational deviator
 Summary(pl.UTF-8):	Moduł Perla Crypt::Rot13 - obrotowy dewiator
 Name:		perl-Crypt-Rot13
 Version:	0.6
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/AYRNIEU/%{pdir}-%{pnam}-%{version}.tar.gz
